@@ -152,47 +152,55 @@
                                         <a class="nav-link active" id="datos-depto-tab" data-bs-toggle="tab"
                                             href="#datos-depto" role="tab" aria-controls="datos-depto"
                                             aria-selected="true">
-                                            Datos Departamento
+                                            Informacion Departamento
                                         </a>
                                     </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="personas-tab" data-bs-toggle="tab" href="#personas"
-                                            role="tab" aria-controls="personas" aria-selected="false">
-                                            Personas
-                                        </a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="viviendas-tab" data-bs-toggle="tab" href="#viviendas"
-                                            role="tab" aria-controls="viviendas" aria-selected="false">
-                                            Viviendas y Hogares
-                                        </a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="poblacionSexo-tab" data-bs-toggle="tab" href="#poblacionSexo"
-                                            role="tab" aria-controls="poblacionSexo" aria-selected="false">
-                                            Población por sexo
-                                        </a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="poblacionArea-tab" data-bs-toggle="tab" href="#poblacionArea"
-                                            role="tab" aria-controls="poblacionArea" aria-selected="false">
-                                            Población por área
-                                        </a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="poblacionGrandesGruposEdad-tab" data-bs-toggle="tab" href="#poblacionGrandesGruposEdad"
-                                            role="tab" aria-controls="poblacionGrandesGruposEdad" aria-selected="false">
-                                            Población por grandes grupos de edad
-                                        </a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="poblacionPueblos-tab" data-bs-toggle="tab" href="#poblacionPueblos"
-                                            role="tab" aria-controls="poblacionPueblos" aria-selected="false">
-                                            Población por pueblos
-                                        </a>
-                                    </li>
+                                
                                 </ul>
                             </div>
+                            <div class="tab-pane fade show active" id="datos-depto" role="tabpanel" aria-labelledby="datos-depto-tab">
+    <h5>Información del Departamento</h5>
+    <ul class="list-group list-group-flush">
+        <li>Nombre: <span id="nombreDepartamento"></span></li>
+        <li>Total de Municipios: <span id="totalMunicipios"></span></li>
+        <li>Capital: <span id="cabecera"></span></li>
+        <li>Población Total: <span id="pob_total"></span></li>
+        <li>Índice de Masculinidad: <span id="indice_masculinidad"></span></li>
+        <li>Edad Promedio: <span id="edad_promedio"></span></li>
+        <li>Índice de Dependencia: <span id="indice_dependencia"></span></li>
+        <li>Años Promedio de Estudio: <span id="anios_prom_estudio"></span></li>
+        <li>Alfabetismo: <span id="alfabetismo"></span></li>
+        <li>Viviendas Particulares: <span id="viviendas_part"></span></li>
+        <li>Total de Hogares: <span id="total_hogares"></span></li>
+        <li>Promedio Personas por Hogar: <span id="prom_personas_hogar"></span></li>
+        <li>Total de Jefas de Hogar: <span id="total_jefas_hogar"></span></li>
+    </ul>
+
+    <h5 class="mt-3">Datos de Personas (Municipio)</h5>
+    <ul class="list-group list-group-flush">
+        <li>Total Hombres: <span id="total_sexo_hombre"></span></li>
+        <li>% Hombres: <span id="porc_sexo_hombre"></span></li>
+        <li>Total Mujeres: <span id="total_sexo_mujeres"></span></li>
+        <li>% Mujeres: <span id="porc_sexo_mujeres"></span></li>
+        <li>Total Sector Urbano: <span id="total_sector_urbano"></span></li>
+        <li>% Sector Urbano: <span id="porc_sector_urbano"></span></li>
+        <li>Total Sector Rural: <span id="total_sector_rural"></span></li>
+        <li>% Sector Rural: <span id="porc_sector_rural"></span></li>
+        <li>Población 0-14 años: <span id="pob_edad_014"></span></li>
+        <li>% Población 0-14 años: <span id="porc_edad_014"></span></li>
+        <li>Población 15-64 años: <span id="pob_edad_1564"></span></li>
+        <li>% Población 15-64 años: <span id="porc_edad_1564"></span></li>
+        <li>Población 65+ años: <span id="pob_edad_65"></span></li>
+        <li>% Población 65+ años: <span id="porc_edad_65"></span></li>
+        <li>Población Garífuna: <span id="pob_pueblo_garifuna"></span></li>
+        <li>% Población Garífuna: <span id="porc_pueblo_garifuna"></span></li>
+        <li>Población Xinca: <span id="pob_pueblo_xinca"></span></li>
+        <li>Población Afrodescendiente: <span id="pob_pueblo_afrodescendiente"></span></li>
+        <li>% Población Afrodescendiente: <span id="porc_pueblo_afrodescendiente"></span></li>
+        <li>Población Ladina: <span id="pob_pueblo_ladino"></span></li>
+    </ul>
+</div>
+
 
                             <div class="card-body tab-content" id="myTabContent">
                                 <!-- Tu contenido de tabs aquí -->
